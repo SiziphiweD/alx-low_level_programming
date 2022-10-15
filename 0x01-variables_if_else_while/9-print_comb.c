@@ -3,13 +3,13 @@
 /**
  * main - Entry point
  * Description: prints numbers
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int i;
 
-	for (1 = '0'; i <= '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 
