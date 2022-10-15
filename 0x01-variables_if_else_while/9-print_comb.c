@@ -1,21 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
+#include <unistd.h>
 /**
- * main - Prints the alphabet without q and e.
- *
+ * main - Entry point
+ * Description: prints numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 123; i++)
+	for (1 = '0'; i <= '9'; i++)
 	{
-		if (i != 101 && i != 113)
+		putchar(i);
+
+		if (i != '9')
 		{
-			putchar(i);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
